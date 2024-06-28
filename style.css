@@ -1,0 +1,192 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.first-div {
+    background-color: rgb(217, 247, 237);
+    color: rgb(15, 199, 199);
+    text-align: center;
+    position: relative;
+}
+/* sSAMUELS CODE */
+div .second-div{
+    display: none;
+}
+
+.first-div p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+span {
+    text-decoration: underline;
+}
+
+.move-1 {
+    position: absolute;
+    top: 40px;
+    right: 200px;
+}
+
+.move-2 {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+}
+
+.second-div {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.profile {
+    width: 40%;
+    margin-left: 30%;
+}
+
+.hello, .my-skill {
+    font-size: 30px;
+    font-weight: lighter;
+    color: rgb(15, 199, 199);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.info {
+    
+    text-align: center;
+}
+
+.dot {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.fourth-div .dot-2 {
+    font-size: 30px;
+}
+
+.second-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+hr {
+    width: 700px;
+    border: 5px solid rgb(68, 67, 67);
+}
+
+.space {
+    margin-top: 0;
+}
+
+.details {
+    display: flex;
+    width: 50%;
+}
+
+.details p {
+    font-size: 15px;
+}
+
+.details h4 {
+    color: rgb(15, 199, 199);
+}
+
+.details img {
+    width: 200px;
+    height: 200px;
+}
+
+.web {
+    margin-left: 0%;
+    width: 100%;
+}
+
+.third-div {
+    background-color: rgb(210, 214, 210);
+    padding: 50px;
+}
+
+.third-div h1 {
+    color: green;
+    text-decoration: underline;
+    text-align: center;
+}
+.third-div img {
+    width: 350px;
+    height: 350px;
+    margin: 10px;
+    cursor: pointer;
+}
+.third-div img:hover {
+ transform: scale(1.1, 1.1);
+ transition-duration: 1s;
+}
+
+
+.third-div div {
+    display: flex;
+    margin-left: 50px;
+}
+
+
+.fourth-div {
+    display: flex;
+    /* width: 50%; */
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.fourth-div h4, .fourth-div h1 {
+    color: rgb(15, 199, 199);    
+}
+
+.fourth-div p {
+    font-size: 13px;
+}
+
+.fourth-div a {
+    color: white;
+    background-color: rgb(25, 180, 180);
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;    
+    padding: 5px 5px;
+    border: 1px solid aquamarine;
+    border-radius: 5px;
+    margin-left: 300px;
+    margin-top: 80px;
+    text-decoration: none;
+}
+
+.fourth-div a:hover {
+    background-color: rgb(158, 238, 30);
+}
+
+.fifth-div {
+    background-color: rgb(35, 177, 177);
+    text-align: center;
+    padding: 50px;
+    margin-top: 20px;
+}
+
+.fifth-div a {
+    text-decoration: none;
+    margin-left: 50px;
+    color: rgb(26, 133, 133);
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.copyright {
+    font-size: 14px;
+    color: white;
+    margin-top: 50px;
+}
